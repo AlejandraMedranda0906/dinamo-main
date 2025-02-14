@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Contenedor principal */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Usa toda la altura disponible */
+  }
+  
+  /* Asegura que el contenido se expanda */
+  .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el Header */
+  .header {
+    background-color: #003366; /* Azul UCACUE */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Footer ajustado abajo */
+  .footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

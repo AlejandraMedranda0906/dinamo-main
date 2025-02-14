@@ -1,0 +1,14 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-container h1 {
+  font-size: 36px;
+  color: #002855; /* Azul oscuro para buen contraste */
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #333; /* Un gris oscuro para mayor legibilidad */
+}
