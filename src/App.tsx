@@ -1,23 +1,33 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import ResearchPage from "./pages/ResearchPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Introduction from "./pages/introduction";  // Corregido
+import Justification from "./pages/Justification";
+import Methodology from "./pages/methodology";    // Corregido
+import Conclusion from "./pages/Conclusion";      // Corregido
+import Reference from "./pages/reference";        // Corregido
+import Results from "./pages/Results";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<About />} />
-        <Route path="/contacto" element={<Contact />} />
-        <Route path="/investigacion" element={<ResearchPage />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <BrowserRouter>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow container mx-auto p-4">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/introduction" element={<Introduction />} />
+            <Route path="/justification" element={<Justification />} />
+            <Route path="/methodology" element={<Methodology />} />
+            <Route path="/conclusion" element={<Conclusion />} />
+            <Route path="/reference" element={<Reference />} />
+            <Route path="/results" element={<Results />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

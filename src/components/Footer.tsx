@@ -1,11 +1,9 @@
-import "../styles/Footer.css"; 
-
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="footer">
-      <p>&copy; 2025 Mi Proyecto. Todos los derechos reservados.</p>
+    <footer className="bg-black text-white text-center py-4 mt-10">
+      <p>© 2025 Dinamo | Todos los derechos reservados.</p>
     </footer>
   );
-}
+};
 
 export default Footer;
