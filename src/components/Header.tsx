@@ -8,12 +8,14 @@ const Header = () => {
         <nav>
           <ul className="flex space-x-6">
             <li><Link to="/" className="hover:text-gray-400">Inicio</Link></li>
+            <li><Link to="/results" className="hover:text-gray-400">Objetivos</Link></li>
             <li><Link to="/introduction" className="hover:text-gray-400">Introducción</Link></li>
             <li><Link to="/justification" className="hover:text-gray-400">Justificación</Link></li>
             <li><Link to="/methodology" className="hover:text-gray-400">Metodología</Link></li>
             <li><Link to="/conclusion" className="hover:text-gray-400">Conclusión</Link></li>
             <li><Link to="/reference" className="hover:text-gray-400">Referencias</Link></li>
             <li><Link to="/results" className="hover:text-gray-400">Resultados</Link></li>
+            <li><Link to="/results" className="hover:text-gray-400">Reference</Link></li>
           </ul>
         </nav>
       </div>

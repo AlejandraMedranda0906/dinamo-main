@@ -1,4 +1,4 @@
-import imagen from "../assets/1portada.jpg"; 
+
 const Introduction = () => {
   return (
     <section className="bg-white shadow-md rounded-lg p-6">

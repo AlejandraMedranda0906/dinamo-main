@@ -16,6 +16,7 @@ const Home = () => {
             <li><Link to="/justification" className="hover:text-gray-400">Objetivos</Link></li>
             <li><Link to="/conclusion" className="hover:text-gray-400">Conclusión</Link></li>
             <li><Link to="/results" className="hover:text-gray-400">Resultados</Link></li>
+            <li><Link to="/results" className="hover:text-gray-400">Reference</Link></li>
           </ul>
         </div>
       </nav>
